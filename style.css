@@ -1,8 +1,13 @@
 body {
-    background-color: rgb(47, 54, 56);
+    background-color: rgb(28, 33, 34);
 }
 
 h1 {
-    color: rgb(58, 189, 112);
+    color: rgb(23, 214, 103);
+    margin-left: 20px;
+}
+
+p {
+    color: rgb(23, 214, 103);
     margin-left: 20px;
 }
