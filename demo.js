@@ -24,8 +24,8 @@ function changeColor(){
 // }
 
 function drawCircle(){
-    ctx.fillStyle = 'rgb(' + Math.min(255, x) + ', ' +
-        Math.min(255, y) + ',' + Math.min(255, Math.abs(x-y)) + ')';
+    ctx.fillStyle = 'rgb(' + Math.min(255, 255-(x/3.92)) + ', ' +
+        Math.min(255, 255-(y/2.35)) + ',' + Math.min(255, Math.abs(x-y)) + ')';
     ctx.beginPath();
     ctx.arc(x, y, ballRadius, 0, 2 * Math.PI);
     ctx.fill();
