@@ -1,5 +1,6 @@
 <template>
   <h1>rawrke's site</h1>
+  <p>work in progress</p>
 </template>
 
 <script>
@@ -24,5 +25,9 @@ h1 {
 }
 body {
   background-color: rgb(28, 33, 34);
+}
+p {
+  margin-top: 0px;
+  font-style: italic;
 }
 </style>
