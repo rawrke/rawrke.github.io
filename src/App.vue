@@ -1,6 +1,6 @@
 <template>
   <h1>rawrke's site</h1>
-  <p>work in progress</p>
+  <p>🚧<i>work in progress</i></p>
 </template>
 
 <script>
@@ -28,6 +28,6 @@ body {
 }
 p {
   margin-top: 0px;
-  font-style: italic;
+  font-style: normal;
 }
 </style>
