@@ -15,5 +15,3 @@ git subtree push --prefix dist origin release
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
-
-cd -
