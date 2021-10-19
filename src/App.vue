@@ -16,12 +16,17 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #737a81;
-  margin-top: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 h1 {
   border-bottom: 3px double #3e4750;
   display: inline-flex;
   padding-bottom: 5px;
+  height:auto;
 }
 body {
   background-color: rgb(28, 33, 34);
