@@ -4,12 +4,13 @@
 		<router-link :to="{ name: 'Projects' }">Projects</router-link>
 		<router-link :to="{ name: 'Notebooks' }">Notebooks</router-link>
 		<router-link :to="{ name: 'Contact' }">Contact</router-link>
+		<router-link v-if="showOther" :to="{ name: 'Other' }">Other</router-link>
 	</nav>
 </template>
 
 <script>
 export default {
-
+  props: ['showOther'],
 }
 </script>
 

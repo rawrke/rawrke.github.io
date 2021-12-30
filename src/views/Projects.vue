@@ -1,10 +1,12 @@
 <template>
-  <p>Hello</p>
+  <SingleProject />
 </template>
 
 <script>
-export default {
+import SingleProject from '../components/SingleProject.vue'
 
+export default {
+  components: { SingleProject },
 }
 </script>
 
